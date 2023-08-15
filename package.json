@@ -1,0 +1,48 @@
+{
+  "name": "basic-spa-vue-vite-template",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
+  },
+  "dependencies": {
+    "@formkit/addons": "^0.17.5",
+    "@formkit/icons": "^0.17.5",
+    "@formkit/themes": "^0.17.5",
+    "@formkit/validation": "^0.17.5",
+    "@formkit/vue": "^0.17.5",
+    "@glyphs/vue-core": "^0.0.8",
+    "@headlessui/vue": "^1.7.15",
+    "@heroicons/vue": "^2.0.18",
+    "@iconify/iconify": "^3.1.1",
+    "@purge-icons/generated": "^0.9.0",
+    "@supabase/supabase-js": "^1.27.0",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.3",
+    "@vueuse/components": "^10.3.0",
+    "@vueuse/core": "^10.3.0",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "preline": "^1.9.0",
+    "vue": "^3.2.16",
+    "vue-multiselect": "3.0.0-beta.2",
+    "vue-router": "^4.0.12",
+    "vue-toastification": "2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.97",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.3.11",
+    "prettier": "2.4.1",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.4",
+    "vite-plugin-purge-icons": "^0.9.2"
+  }
+}
